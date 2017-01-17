@@ -1,8 +1,11 @@
 
 html {
   font-size: 10px;
-  background: url(https://static.pexels.com/photos/141376/pexels-photo-141376.jpeg) bottom center;
+  background: url(https://static.pexels.com/photos/141376/pexels-photo-141376.jpeg) no-repeat center center fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 body,html {
   margin: 0;
