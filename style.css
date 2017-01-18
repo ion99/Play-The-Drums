@@ -37,8 +37,9 @@ kbd {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid #312f2f;
   border-radius: .5rem;
+  box-shadow: 4px 1px 18px 0px rgba(103, 181, 125, 0.71);
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
