@@ -49,6 +49,12 @@ kbd {
   text-shadow: 5px 6px 0.5rem #4e2d2d;
 }
 
+.key:hover {
+  background-color: rgba(243, 182, 182, 0.3);
+  box-shadow: 4px 1px 18px 0px rgba(103, 181, 125, 0.95);
+  font-size: 1.7rem;
+}
+
 footer {
   background: rgba(239, 162, 182, 0.29);
   color: #312f2f;
