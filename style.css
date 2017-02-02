@@ -14,8 +14,32 @@ body,html {
   font-family: sans-serif;
 }
 
+.video {
+  display: flex;
+}
+
 iframe {
+  float: left;
+  width: 25.455em;
+  height: 14.318em;
   padding: 1rem;
+  opacity: 0.5;
+}
+
+iframe:hover {
+  opacity: 1.0;
+}
+
+h1 {
+  font-family: fantasy;
+  font-style: italic;
+  color: rgba(245, 158, 131, 0.84);
+  font-size: 3em;
+  margin: .85em;
+  padding: .3em;
+  background: rgba(241, 223, 69, 0.09);
+  border-radius: 35px;
+  border: none;
 }
 
 .keys {
@@ -74,8 +98,8 @@ kbd {
 }
 
 footer {
-  background: rgba(135, 232, 38, 0.19);
-  color: #d8c8c8;
+  background: rgba(241, 223, 69, 0.17);
+  color: rgba(249, 229, 222, 0.84);
   text-align: center;
   line-height: 25px;
   padding: 0 20px;
