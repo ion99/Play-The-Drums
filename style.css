@@ -1,6 +1,6 @@
 
 html {
-  font-size: 13px;
+  font-size: 11px;
   background: url(https://static.pexels.com/photos/141376/pexels-photo-141376.jpeg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -16,22 +16,28 @@ body,html {
 
 .keys {
   display: flex;
+  display: -webkit-flex;
   flex: 1;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  -webkit-justify-content: center; /* Safari */
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap; /* Safari */
+  align-content: center;
+  -webkit-align-content: center; /* Safari */
 }
 
 
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .sound-name {
-  font-size: 1rem;
+  font-size: .7rem;
   text-transform: uppercase;
-  letter-spacing: .1rem;
+  letter-spacing: .05rem;
   color: #00ff5e;
 }
 
