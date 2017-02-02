@@ -14,11 +14,15 @@ body,html {
   font-family: sans-serif;
 }
 
+iframe {
+  padding: 1rem;
+}
+
 .keys {
   display: flex;
   display: -webkit-flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 35vh;
   align-items: center;
   justify-content: center;
   -webkit-justify-content: center; /* Safari */
