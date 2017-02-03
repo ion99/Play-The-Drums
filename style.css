@@ -15,7 +15,17 @@ body,html {
 }
 
 .video {
-  display: flex;
+  display: flex;   
+}
+
+.video iframe {
+  width: 20%;
+  height: 7%;
+}
+
+.video h1 {
+  width: 35%;
+  height: 20%;
 }
 
 iframe {
@@ -38,7 +48,7 @@ h1 {
   margin: .85em;
   padding: .3em;
   background: rgba(241, 223, 69, 0.09);
-  border-radius: 35px;
+  border-radius: 3.182em;
   border: none;
 }
 
@@ -54,6 +64,8 @@ h1 {
   -webkit-flex-wrap: wrap; /* Safari */
   align-content: center;
   -webkit-align-content: center; /* Safari */
+  width: 100%;
+  height: 100%;
 }
 
 
