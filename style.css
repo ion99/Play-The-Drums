@@ -23,15 +23,17 @@ body,html {
 }
 
 .video h1 {
-  width: 35%;
+  width: 25%;
   height: 20%;
 }
 
 iframe {
   float: left;
   height: 11vw;
-  padding: 1rem;
+  padding: 2rem;
   opacity: 0.5;
+  margin-left: 2em;
+  margin-top: 1em;
 }
 
 iframe:hover {
@@ -41,9 +43,10 @@ iframe:hover {
 h1 {
   font-family: fantasy;
   font-style: italic;
+  text-align: center;
   color: rgba(245, 158, 131, 0.84);
-  font-size: 2.5vw;
-  margin: .85em;
+  font-size: 1.7vw;
+  margin: 2.8em .85em .85em 6.5em;
   padding: .3em;
   background: rgba(241, 223, 69, 0.09);
   border-radius: 3.182em;
@@ -54,7 +57,7 @@ h1 {
   display: flex;
   display: -webkit-flex;
   flex: 1;
-  min-height: 45vh;
+  min-height: 40vh;
   align-items: center;
   justify-content: center;
   -webkit-justify-content: center; /* Safari */
